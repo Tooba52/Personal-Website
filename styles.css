@@ -2,8 +2,10 @@ html, body{
     background-color: black;
 }
 
-p{
-    color: aliceblue;
+p,h1,h2,h3{
+    color:lightgrey;
+    font-family: sans-serif;
+    line-height: 1.8;
 }
 
 section {
@@ -48,19 +50,52 @@ li a:active{
 }
 
 
-/* 
-home */
+/* home */
+
+#intro{
+    padding-top: 10%;
+    padding-left:10%
+
+}
+
+#home-container{
+    display: flex;
+    gap: 400px
+}
+
+#me{
+    height: 500px;
+    padding-top: 10%;
+
+}
 
 #home h3{
     color: hotpink;
 
 }
 
-#home header{
-    color: aliceblue;
+#about button{
+    background-color: hotpink;
+    padding: 20px 20px;
+    font-weight:bold;
+    border-radius: 30px;
+    border: none;
 }
 
 /* about me */
-#about h1{
-    color: aliceblue;
+#about-container{
+    display: flex;
+    gap: 70px;
+    padding: 3% 10%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#book-container{
+    display: flex;
+    gap: 40px;
+}
+
+.book-cover{
+    height: 200px;
 }
