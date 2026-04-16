@@ -1,36 +1,50 @@
+/* general */
 html, body{
     background-color: black;
-}
-
-p,h1,h2,h3{
-    color:lightgrey;
     font-family: sans-serif;
+    color:lightgrey;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+p{
     line-height: 1.8;
 }
-
-section {
-    border: 2px solid red;
+.seperator{
+    border-bottom: 2px solid grey;
+    padding-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
-/* nav links */
-nav{
-    border: 2px solid red;
-    padding:10px;
+/* nav */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
 }
 
 ul {
-    list-style-type: none;
-    display: flex;
+    list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
 }
 
-.logo{
-    padding-right: 30%;
-    margin-left: 10%;
-    color: aliceblue;
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+    padding-right: 350px;
+    margin-left: 100px;
 }
+
 
 li a{
     display: block;
@@ -51,11 +65,24 @@ li a:active{
 
 
 /* home */
+#home{
+    margin-top: 2%;
+}
 
 #intro{
     padding-top: 10%;
-    padding-left:10%
+    padding-left:10%;
 
+}
+
+#intro h1{
+    font-size: 60px;
+}
+
+#intro h3{
+    font-size: 15px;
+    letter-spacing:4px;
+    font-weight:700;
 }
 
 #home-container{
@@ -86,7 +113,7 @@ li a:active{
 #about-container{
     display: flex;
     gap: 70px;
-    padding: 3% 10%;
+    padding: 2% 10%;
     justify-content: center;
     align-items: flex-start;
 }
@@ -99,3 +126,5 @@ li a:active{
 .book-cover{
     height: 200px;
 }
+
+/* experience */
