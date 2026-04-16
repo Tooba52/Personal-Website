@@ -1,0 +1,66 @@
+html, body{
+    background-color: black;
+}
+
+p{
+    color: aliceblue;
+}
+
+section {
+    border: 2px solid red;
+}
+
+
+/* nav links */
+nav{
+    border: 2px solid red;
+    padding:10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    padding-right: 30%;
+    margin-left: 10%;
+    color: aliceblue;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 1px 40px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+li a:hover{
+    color: hotpink;
+}
+
+li a:active{
+    color: hotpink;
+    text-decoration: underline;
+}
+
+
+/* 
+home */
+
+#home h3{
+    color: hotpink;
+
+}
+
+#home header{
+    color: aliceblue;
+}
+
+/* about me */
+#about h1{
+    color: aliceblue;
+}
